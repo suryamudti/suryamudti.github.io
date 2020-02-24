@@ -1,0 +1,66 @@
+# Site Settings
+baseurl: ""
+url : "https://naye0ng.github.io"
+
+# Blog Settings
+theme_settings :
+  title : surya
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/profile.jpeg
+    username : Suryamudti
+    description : Software Engineer
+    experience :
+      - start : 2020-02-17
+        end : now
+        experience : tiket.com, Software Engineer-Android
+      - start : 2018-12-24
+        end : 2019-12-06
+        experience : The Development CAFE, Sr Android Developer
+      - start : 2018-01-08
+        end : 2018-12-12
+        experience : PT Cranium Royal Aditama, Android Developer
+      
+    skills : 
+      - skill : Android
+        value : 95  # Percent value
+      - skill : Java
+        value : 90  # Percent value
+      - skill : Kotlin
+        value : 90  # Percent value
+      - skill : Javascript
+        value : 85  # Percent value
+      - skill : PHP
+        value : 85  # Percent value
+      - skill : Python
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email:  suryamudti0128@gmail.com
+    linkedin:  https://www.linkedin.com/in/suryamudti-salmat-a55aa214a/
+    github: suryamudti
+    gitlab: suryamudti
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
